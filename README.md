@@ -11,7 +11,7 @@
    1. Checkout Token Challenge from github <br>
       ` git clone https://github.com/arunsectest/token_challenge.git ` <br> 
    2. cd token_challenge
-   3. a. Run as docker. container <br>
+   3. a. Run as docker container <br>
          &nbsp; ` ./startup.sh ` <br> 
       b. Run using docker-compose <br>
          &nbsp; ` ./startup_docker-compose.sh ` 
