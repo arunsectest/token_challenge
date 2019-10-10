@@ -5,7 +5,8 @@
    into the challenge page, you will get the flag. <br> The flag takes the following format: LASCONX{xxxx-xxx-xxx-xxx-xxxxxxx}.
 ## Requirements:
    1. Docker or Docker Compose should be installed to play this challenge
-   2. Prior knowledge of docker is useful but not required.
+   2. git
+   3. Prior knowledge of git and docker is useful but not required.
 ## How to run:
    1. Checkout Token Challenge from github <br>
       ` git clone https://github.com/arunsectest/token_challenge.git ` <br> 
