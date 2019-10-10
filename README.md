@@ -7,17 +7,15 @@
    1. Docker or Docker Compose should be installed to play this challenge
    2. Prior knowledge of docker is useful but not required.
 ## How to run:
-   1. Docker Compose <br>
-      a. Checkout the docker compose directory from Github <br>
-         &nbsp;&nbsp; ` git clone https://github.com/arunsectest/token_challenge.git ` <br>
-      b. cd token_challenge/docker-compose/ <br>
-      c. The directory contains docker-compose.yml file and startup.sh script <br>
-      d. ./startup.sh <br>
-      e. Click the URL or manually open the browser and place the following URL: ` http://0.0.0.0:80/ `
-   2. Run as Docker container: <br>
-      a. docker pull arunsectest/lascon2019 <br>
-      b. ` docker run -it --rm -p 80:80 arunsectest/lascon2019 ` <br>
-      c. Click the URL or manually open the browser and place the following URL: ` http://0.0.0.0:80/ ` <br>
+   1. Checkout Token Challenge from github <br>
+      ` git clone https://github.com/arunsectest/token_challenge.git ` <br> 
+   2. cd token_challenge
+   3. a. Run as docker. container <br>
+         &nbsp; ` ./startup.sh ` <br> 
+      b. Run using docker-compose <br>
+         &nbsp; ` ./startup_docker-compose.sh ` 
+   4. Click the URL or manually open the browser and place the following URL into the address bar: <br>
+      ` http://0.0.0.0:80/ `
 ## Hints:
    1. Username/password brute forcing doesn't work here.
    2. Check for information on the usual places to check
